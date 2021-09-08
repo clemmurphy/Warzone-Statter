@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: #808080;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Heebo', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px;
+}
+
+.stats {
+  display: none;
+}
+
+.search-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#username {
+  border-radius: 10px 0 0 10px;
+}
+
+#submit {
+  border-radius: 0 10px 10px 0;
+}
+
+.search-input button {
+  border: none;
+  height: 60px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+input, select {
+  border: none;
+  height: 60px;
+  padding: 20px;
+  margin: 20px 0;
+  font-family: 'Heebo', sans-serif;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+button {
+  font-family: 'Heebo', sans-serif;
+  cursor: pointer;
+}
+
+.lads-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.lads-buttons button {
+  border: none;
+  height: 30px;
+  padding: 5px 20px;
+  border-radius: 3px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.stats {
+  margin-top: 40px;
+}
+
+.instructions {
+  font-size: 12px;
+  margin-bottom: 20px;
+}

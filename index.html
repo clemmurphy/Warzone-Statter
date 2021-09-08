@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;700&display=swap" rel="stylesheet">
+  <title>Warzone Statter</title>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <div class="center">
+    <h1>Warzone Statter</h1>
+    <div class="search-input">
+      <input id="username" placeholder="Username"></input>
+      <select id="platform">
+        <option value="psn">Playstation</option>
+        <option value="steam">Steam</option>
+        <option value="xbl">Xbox</option>
+        <option value="battle">Battle.net</option>
+        <option value="acti">Activison</option>
+      </select>
+      <button id="submit">Get Stats</button>
+    </div>
+    <p class="instructions"><a href="https://wzstats.gg/help-profile">How to find your username</a></p>
+    <div class="lads-buttons">
+      <div class="jkr">
+        <button id="james" class="jkr-btns">James</button>
+        <button id="clem" class="jkr-btns">Clem</button>
+        <button id="gene" class="jkr-btns">Gene</button>
+        <button id="louis" class="jkr-btns">Louis</button>
+        <button id="brad" class="jkr-btns">Brad</button>
+        <!-- <button id="ash" class="jkr-btns">Ash</button> -->
+      </div>
+    </div>
+    <div class="stats">
+      <h2><span id="name"></span></h2>
+      <p>Wins: <span id="wins"></span></p>
+      <p>Kills: <span id="kills"></span></p>
+      <p>K/D Ratio: <span id="kd"></span></p>
+    </div>
+  </div>
+</body>
+</html>
